@@ -37,10 +37,10 @@ try {
       return `
         <li>
           <h3>${name}</h3>
-          ${type || status ? `<div class="labels-wrap">
+          <div class="labels-wrap">
             ${type ? `<span class="type">${type}</span>` : ''}
             ${status != 'release' ? `<span class="status ${status}">${status}</span>` : ''}
-          </div>` : ''}
+          </div>
           <a href="${urlProject}" target="_blank" rel="noopener noreferrer">Перейти на ${name}</a>
           <a href="${urlCode}" target="_blank" rel="noopener noreferrer">Глянути вихідний код</a>
         </li>
