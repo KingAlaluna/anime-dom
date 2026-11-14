@@ -1,9 +1,9 @@
 import Hls from 'https://cdn.jsdelivr.net/npm/hls.js@latest/dist/hls.mjs';
 import Plyr from 'https://cdn.jsdelivr.net/npm/plyr@3.7.8/dist/plyr.mjs';
 
-import {html, api, vData, data, c, animeData} from '../../data/config.js';
-import {apiFetch, escHtml, router} from '../main-logic.js';
-import {imgUpdate, renderAnimeGrid, renderAnime} from '../render-anime-lists.js';
+import {html, api, vData, data, c, } from '../../data/config.js';
+import {apiFetch, escHtml, } from '../main-logic.js';
+import {imgUpdate, renderAnime} from '../render-anime-lists.js';
 
 
 export function videoConfigStart() {

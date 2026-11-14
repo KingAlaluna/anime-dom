@@ -1,6 +1,6 @@
 import {html, data} from '../data/config.js';
 import {router} from './main-logic.js';
-import {loadTab, anineFilter} from './filter-anime.js';
+import {loadTab, } from './filter-anime.js';
 
 
 //main menu

@@ -1,4 +1,6 @@
-import {html, api, c} from '../data/config.js';
+import {html, api, c, filters} from '../data/config.js';
+import {apiFetch} from './main-logic.js';
+import {renderGrid} from './render-anime-lists.js';
 
 
 export const paginBtn = {

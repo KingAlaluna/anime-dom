@@ -142,3 +142,10 @@ export const animeData = {
   }
 };
 
+
+// --- Filters ---
+export const filters = {
+  config: {
+    page: 1,
+  },
+};

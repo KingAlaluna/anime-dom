@@ -127,8 +127,10 @@ function btnActive(match) {
 //
 //router
 //
-const root = window.location.pathname;
-export const router = new NavigoLib.default(root, { hash: true });
+if (!location.hash) {
+  history.replaceState(null, '', location.pathname + location.search + '#/');
+}
+export const router = new NavigoLib.default('/', { hash: true });
 
 router.hooks({
   after: (match) => {
@@ -202,3 +204,5 @@ router.on({
   
 }).resolve();
 
+//pageActive('main-page');
+//loadTab('main');

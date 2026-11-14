@@ -16,40 +16,40 @@
   
   .all-my-projects-wrap {
     height: max-content;
-    
-    .labels-wrap {
-      height: max-content;
-      flex-direction: row;
-      flex-wrap: wrap;
-      gap: 1rem;
-      margin-bottom: 1rem;
-      
-      .type,
-      .status {
-        display: inline-block;
-        padding: 0.2rem 1rem;
-        border: var(--border);
-        border-radius: var(--radius);
-        text-transform: uppercase;
-        font-size: 0.7rem;
-      }
-      
-      .type {
-        background: var(--project-type-bg);
-      }
-      
-      .status {
-        &.alpha {
-          color: var(--status-alpha-color);
-          background: var(--status-alpha-bg);
-          border-color: var(--status-alpha-border-color);
-        }
-        &.beta {
-          color: var(--status-beta-color);
-          background: var(--status-beta-bg);
-          border-color: var(--status-beta-border-color);
-        }
-      }
+  }
+  
+  .labels-wrap {
+    height: max-content;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-bottom: 1rem;
+  }
+  
+  .type,
+  .status {
+    display: inline-block;
+    padding: 0.2rem 1rem;
+    border: var(--border);
+    border-radius: var(--radius);
+    text-transform: uppercase;
+    font-size: 0.7rem;
+  }
+  
+  .type {
+    background: var(--project-type-bg);
+  }
+  
+  .status {
+    &.alpha {
+      color: var(--status-alpha-color);
+      background: var(--status-alpha-bg);
+      border-color: var(--status-alpha-border-color);
+    }
+    &.beta {
+      color: var(--status-beta-color);
+      background: var(--status-beta-bg);
+      border-color: var(--status-beta-border-color);
     }
   }
   
@@ -60,17 +60,17 @@
     max-width: 100%;
     height: max-content;
     flex-direction: row;
+  }
+  
+  .logo {
+    width: 3rem;
+    height: 3rem;
+    border-radius: var(--radius);
+    background: var(--footer-copy-logo-bg);
+    margin: 0 1rem 0 0;
     
-    .logo {
-      width: 3rem;
-      height: 3rem;
-      border-radius: var(--radius);
-      background: var(--footer-copy-logo-bg);
-      margin: 0 1rem 0 0;
-      
-      &.mit {
-        width: auto;
-      }
+    &.mit {
+      width: auto;
     }
   }
   

@@ -1,6 +1,5 @@
-import {html, api, c, vData, animeData} from '../data/config.js';
-import {escHtml, router, apiFetch} from './main-logic.js';
-import {filters} from './filter-anime.js';
+import {html, api, c, animeData, } from '../data/config.js';
+import {escHtml, router, } from './main-logic.js';
 import {videoConfigStart} from './page/anime-view.js';
 import {paginCheck} from './paginations.js';
 
